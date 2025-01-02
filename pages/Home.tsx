@@ -9,7 +9,12 @@ const Home: React.FC = () => {
   const { products, error } = useProducts();
 
   if (error) {
+    console.error(error);
     return <p className="text-red-500">Error: {error}</p>;
+  }
+
+  if (!products) {
+    return <p>Loading products...</p>; // You can show a loading spinner here if needed
   }
 
   return (

@@ -18,7 +18,7 @@ const Header = () => {
   const { itemAmount } = contextCart;
   return (
     <header className="w-full flex justify-around items-center px-4 py-4 bg-black text-white">
-      <div className="text-xl font-semibold">Best Sale</div>
+      <div className="text-xl  font-semibold">Best Sale</div>
       <div className="relative">
         <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer">
           <MdOutlineShoppingCart className="text-2xl lg:text-3xl" />
