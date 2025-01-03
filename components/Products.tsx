@@ -46,8 +46,6 @@ const Products = ({ cardData }: { cardData: any }) => {
 
   };
 
-  console.log(cartData)
-
   return (
     <div className="" id='products'>
       <div className=" border border-[#e4e4e4] h-[220px] p-6  mb-4 relative overflow-hidden group transition">
